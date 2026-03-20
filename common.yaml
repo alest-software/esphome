@@ -14,3 +14,7 @@ substitutions:
   #https://www.trekcore.com/audio/doors/voy_door_chime.mp3
 
 button:
+  - platform: template
+    id: blue_alert
+    name: blue_alert
+    disabled_by_default: true
