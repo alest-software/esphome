@@ -1,0 +1,7 @@
+substitutions:
+  #wake_word_triggered_sound_file: https://www.trekcore.com/audio/computer/hailbeep3_clean.mp3
+  #timer_finished_sound_file: https://www.trekcore.com/audio/computer/input_ok_2_clean.mp3
+  #error_cloud_expired_file: https://www.trekcore.com/audio/computer/input_failed_clean.mp3
+  wake_word_triggered_sound_file: https://www.trekcore.com/audio/computer/computerbeep_73.mp3
+  timer_finished_sound_file: https://www.trekcore.com/audio/computer/computerbeep_74.mp3
+  error_cloud_expired_file: https://www.trekcore.com/audio/computer/computerbeep_75.mp3
