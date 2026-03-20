@@ -17,5 +17,5 @@ button:
   - platform: template
     id: red_alert
     name: red_alert
-    disabled_by_default: true
+    #disabled_by_default: true
   
