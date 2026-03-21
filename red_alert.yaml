@@ -2,7 +2,7 @@
 button:
   - platform: template
     id: red_alert_btn
-    name: Red Alert
+    name: "Red Alert"
     on_press:
       - script.execute: exc_red_alert
 
