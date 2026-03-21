@@ -3,3 +3,10 @@ button:
   - platform: template
     id: red_alert
     name: Red Alert
+
+media_player:
+  - id: !extend speaker_media_player
+    files:
+      - id: red_alert_sound
+        file: ${red_alert_sound_file}
+    
