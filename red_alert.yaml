@@ -3,10 +3,18 @@ button:
   - platform: template
     id: red_alert
     name: Red Alert
+    on_press:
+      - script.execute: red_alert
 
 media_player:
   - id: !extend speaker_media_player
     files:
       - id: red_alert_sound
         file: ${red_alert_sound_file}
-    
+        
+script:
+  - id: red_alert
+    then:
+      - media_player.play_media:
+          id: speaker_media_player
+          media_id: red_alert_sound
