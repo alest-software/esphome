@@ -13,10 +13,10 @@ media_player:
       - id: red_alert_sound
         file: ${red_alert_sound_file}
         
-script:
-  - id: exc_red_alert
-    then:
-      #- logger.log: "Red alert..."
-      - media_player.play_media:
-          id: speaker_media_player
-          media_id: red_alert_sound
+#script:
+#  - id: exc_red_alert
+#    then:
+#      #- logger.log: "Red alert..."
+#      - media_player.play_media:
+#          id: speaker_media_player
+#          media_id: red_alert_sound
