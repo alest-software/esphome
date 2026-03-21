@@ -1,21 +1,5 @@
-#substitutions:
-  #wake_word_triggered_sound_file: https://www.trekcore.com/audio/computer/hailbeep3_clean.mp3
-  #timer_finished_sound_file: https://www.trekcore.com/audio/computer/input_ok_2_clean.mp3
-  #error_cloud_expired_file: https://www.trekcore.com/audio/computer/input_failed_clean.mp3
-  #wake_word_triggered_sound_file: https://www.trekcore.com/audio/computer/computerbeep_73.mp3
-  #timer_finished_sound_file: https://www.trekcore.com/audio/computer/computerbeep_74.mp3
-  #error_cloud_expired_file: https://www.trekcore.com/audio/computer/computerbeep_75.mp3
-  #https://www.trekcore.com/audio/other/tos_bosun_whistle_1.mp3
-  #https://www.trekcore.com/audio/redalertandklaxons/voybluealert.mp3
-  #https://www.trekcore.com/audio/redalertandklaxons/voy_intruder_alert.mp3
-  #https://www.trekcore.com/audio/redalertandklaxons/voy_redalert.mp3
-  #https://www.trekcore.com/audio/redalertandklaxons/voy_redalert_2.mp3
-  #https://www.trekcore.com/audio/redalertandklaxons/tos_red_alert.mp3
-  #https://www.trekcore.com/audio/doors/voy_door_chime.mp3
 
 button:
   - platform: template
     id: red_alert
-    name: red_alert
-    #disabled_by_default: true
-  
+    name: Red Alert
