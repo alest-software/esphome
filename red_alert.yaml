@@ -4,7 +4,8 @@ button:
     id: red_alert_btn
     name: "Red Alert"
     on_press:
-      - script.execute: exc_red_alert
+      - script.execute:
+          id: exc_red_alert
 
 media_player:
   - id: !extend speaker_media_player
