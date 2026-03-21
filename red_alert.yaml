@@ -15,6 +15,7 @@ media_player:
 script:
   - id: exc_red_alert
     then:
-      - media_player.play_media:
-          id: speaker_media_player
-          media_id: red_alert_sound
+      - logger.log: "Red alert..."
+      #- media_player.play_media:
+      #    id: speaker_media_player
+      #    media_id: red_alert_sound
