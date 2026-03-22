@@ -11,7 +11,7 @@ media_player:
   - id: !extend speaker_media_player
     files:
       - id: bosun_sound
-        file: ${bosun_sound_file}
+        file: ${bosun_whistle_sound_file}
 
 script:
   - id: exc_bosun
