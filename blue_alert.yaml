@@ -1,1 +1,21 @@
 
+button:
+  - platform: template
+    id: blue_alert_btn
+    name: "Blue Alert"
+    on_press:
+      - script.execute:
+          id: exc_blue_alert
+
+media_player:
+  - id: !extend speaker_media_player
+    files:
+      - id: blue_alert_sound
+        file: ${blue_alert_sound_file}
+
+script:
+  - id: exc_blue_alert
+    then:
+      - media_player.speaker.play_on_device_media_file:
+          media_file: blue_alert_sound
+          announcement: true
