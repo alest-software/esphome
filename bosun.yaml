@@ -1,1 +1,21 @@
 
+button:
+  - platform: template
+    id: buson_btn
+    name: "Bosun"
+    on_press:
+      - script.execute:
+          id: exc_bosun
+
+media_player:
+  - id: !extend speaker_media_player
+    files:
+      - id: bosun_sound
+        file: ${bosun_sound_file}
+
+script:
+  - id: exc_bosun
+    then:
+      - media_player.speaker.play_on_device_media_file:
+          media_file: bosun_sound
+          announcement: true
